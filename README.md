@@ -8,9 +8,9 @@ The package focuses on providing simple and efficient ways to manipulate space-t
 
 Without any effort:
 
-i- get automatically spatial and temporal objects, and an easy access to values.
+1. get automatically spatial and temporal objects, and an easy access to values.
 
-ii- Spatial and temporal information and values are inter-connected for an easier exploitation.
+2. Spatial and temporal information and values are inter-connected for an easier exploitation.
 
 ## Installation
 
