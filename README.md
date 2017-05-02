@@ -41,7 +41,7 @@ CELLCENTER <- TRUE
 param$new(varid=varid,proj4S=proj4S,xi=xi,yi=yi,ti=ti,CELLCENTER=CELLCENTER)
 
 # make the connection to your file
-limSTObj <- limonadeST(filename=listFiles[1],format=format,param)
+limSTObj <- limonadeST(filename=filename,format=format,param)
 
 # subset
 limSTObj$subset(offset = list(i=1,j=1,k=1), count = list(i=1000,j=1000,k=1),v=450)
