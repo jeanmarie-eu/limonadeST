@@ -1,12 +1,11 @@
 Package: limonadeST
 Type: Package
 Version: 0.0.1
-Authors@R: person("Jean-Marie", "Lepioufle", , "jm@nexmodeling.com", c("aut","cre"),
-           person("nexModeling", role = "cph"))
+Authors@R: c(person("Jean-Marie", "Lepioufle", , "me@jeanmarie.eu", c("aut","cre")))
 Title: limonadeST
 Description: limonadeST makes easy the extraction of space-time datasets.
   The package focuses on providing simple and efficient ways to manipulate space-time grid datasets.
-  Without any effort: 
+  Without any effort:
   i- get automatically spatial and temporal objects, and an easy access to values.
   ii- Spatial and temporal information and values are inter-connected for an easier exploitation.
 Depends:
@@ -16,9 +15,9 @@ Imports:
    spatialManip,
    limonade
 Remotes:
-    jeanmarielepioufle/timeManip,
-    jeanmarielepioufle/spatialManip,
-    jeanmarielepioufle/limonade
+    jeanmarie-eu/timeManip,
+    jeanmarie-eu/spatialManip,
+    jeanmarie-eu/limonade
 License: GPL-3
 Encoding: UTF-8
 LazyData: false
